@@ -1,0 +1,19 @@
+namespace com.devb.consolidated
+
+participant Client identified by clientId {
+  o String clientId
+  o String name
+}
+
+asset Portfolio identified by portfolioId {
+  o String portfolioId
+  o String jsonAsset
+  --> Client client
+  o Double value
+}
+
+transaction Revalue {
+  --> Portfolio portfolio
+  o Double newValue
+}
+
