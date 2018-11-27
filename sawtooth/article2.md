@@ -34,9 +34,9 @@ Welcome to Ubuntu 16.04.5 LTS (GNU/Linux 4.4.0-117-generic x86_64)
 Welcome to Alibaba Cloud Elastic Compute Service !
 ```
 
-If is not a generic Ubuntu 16.0.4 64-Bit system, you may have chosen an incorrect instance. It will be somewhat a challenge in installing Sawtooth on such an instance.
+If is not a generic Ubuntu 16.0.4 64-Bit system, you may have chosen an incorrect instance. It will be a challenge in installing Sawtooth on such an instance.
 
-**INSTANCE:** Create an user for other installations such as Hyperledger Sawtooth.
+**INSTANCE:** Create a new user for all related installations regarding Hyperledger Sawtooth.
 ```
 $ adduser devb
 $ usermod -aG sudo devb
@@ -55,11 +55,11 @@ $ a2enmod headers
 $ a2enmod proxy_http
 ```
 
-**INSTANCE:** Upon successful installation of Apache, the install kit sets up a 'htdocs' folder where the htmls can be stored.
+**INSTANCE:** Upon successful installation of Apache, the install kit sets up a 'htdocs' folder where the htmls get stored.
 ```
 # -- /var/www
 ```
-**LOCAL:** After the installation of Apache, get back to your local machine, fire up a web browser and check out the instance. The xx.xx.xxx.xxx represents the IP address that you can get from the console.
+**LOCAL:** After Apache’s installation, turn your attention to your local machine, fire up a web browser and check out the instance. The xx.xx.xxx.xxx represents the IPv4 address you can get from the Alibaba Cloud Console.
 ```
 http://xx.xx.xxx.xxx
 ```
