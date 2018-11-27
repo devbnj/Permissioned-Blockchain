@@ -10,7 +10,9 @@ This article is on Hyperledger Sawtooth installation and you can read about Hype
 
 ![alt text](article202.png "Alibaba ECS Instance")
 
-**CONSOLE:** Set a security group. Assign or create a new set of keys for the instance and download the keys. Ensure the keys are secure and only readable by you before using them
+**CONSOLE:** Set a security group. Assign or create a new set of keys for the instance and download the keys. Ensure the keys are secure and only readable by you before using them.
+
+![alt text](article203.png "Alibaba ECS Security Group")
 
 **LOCAL:** Secure the downloaded keys.
 ```
