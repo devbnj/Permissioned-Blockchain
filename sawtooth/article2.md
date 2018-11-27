@@ -64,7 +64,7 @@ $ a2enmod proxy_http
 http://xx.xx.xxx.xxx
 ```
 
-**INSTANCE:**
+**INSTANCE:** Change the attributes and the ownership of the Web Folder.
 ```
 # -- change the attributes of the web root folder
 $ sudo chmod -R 755 /var/www
@@ -79,7 +79,7 @@ $ nano 000-default.conf
 $ systemctl restart apache2
 ```
 
-**INSTANCE:** Sawtooth expects a few prerequisites installed before attempting to install and finetune itself. As you may have noticed, the ECS instance chosen is a relatively small resource intensive one and I intend to show you what it entails to run Sawtooth without any other frills - a barebones Ubuntu 16.0.4 instance equipped with Apache running barebones Hyperledger Sawtooth.
+**INSTANCE:** Sawtooth expects a few prerequisites installed before attempting to install and finetune itself. As you may have noticed, the ECS instance chosen is a relatively small resource intensive instance and I intend to show you what it entails to run Sawtooth without any other frills in a barebones Ubuntu 16.0.4 instance equipped with Apache.
 
 ```
 # -- if you have an earlier installation or even a failed installation
@@ -316,7 +316,10 @@ $ sudo apachectl restart
 ```
 
 **LOCAL:** Check the URL on your local web browser to see if Sawtooth is accessible.
+```
 https://www.sawtoothsite.com/sawtooth/blocks
+```
+![alt text](article209.png "Running Sawtooth")
 
 ## Troubleshooting
 If the validator and REST-API do not show up, it maybe necessary to bring down the services, regenerate the keys and rerun the services.
