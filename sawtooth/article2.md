@@ -1,4 +1,6 @@
-# Installing Hyperledger Sawtooth 1.0.5 on Alibaba Cloud EC Instance
+
+# **Installing Hyperledger Sawtooth 1.0.5 on Alibaba Cloud EC Instance**
+![alt text](article201.png "Installing Hyperledger Sawtooth")
 
 Sawtooth is a powerful Permissioned Blockchain Network offering from Hyperledger. Sawtooth is primarily driven by Intel and notes and documentation are their contribution. Unlike its peer, Fabric, Sawtooth is a nimble system that runs on small containers. For Hyperledger Fabric 1.3, I had chosen a ECS instance from Alibaba Cloud with Ubuntu 16.0.4 64 Bit, 2 VCPU, 4 GB RAM and 40 GB disk space. I let the two block chains co-exist on the ECS instance, besides opening the two blockchain systems to the external world. 
 
