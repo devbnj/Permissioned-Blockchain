@@ -8,6 +8,8 @@ This article is on Hyperledger Sawtooth installation and you can read about Hype
 
 **CONSOLE:** Set up the EC Instance. In our case we had chosen a 64-bit Ubuntu 16.0.4 running on 2 VCPUs, 4 GB, 40 GB. You can select a downgraded version such as 1 VCPU, 2 GB RAM and 20 GB instance.
 
+![alt text](article202.png "Alibaba ECS Instance")
+
 **CONSOLE:** Set a security group. Assign or create a new set of keys for the instance and download the keys. Ensure the keys are secure and only readable by you before using them
 
 **LOCAL:** Secure the downloaded keys.
