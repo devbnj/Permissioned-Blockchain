@@ -4,3 +4,4 @@ Permissioned Blockchain is an architectural model, an abstraction from the speci
 
 Permissioned Blockchain comes from years of experience in modeling the wealth management and lending practice. Few financial models exist in the industry that conform to the value of an enterprise-wide model for capturing services, functions, roles and data relevant to the new networking world of blockchain. I developed the book to define standard methods in transitioning complex applications, encouraging the development of interoperable software and defining a set of reusable patterns and modules for the financial services industry by applying the principles of architecture-based development.
 
+**Please note:** You may use the software (smart contracts etc) for personal usage or testing only. **You cannot use the software components commercially or otherwise without the written consent of Chainbelow.ORG**. 
