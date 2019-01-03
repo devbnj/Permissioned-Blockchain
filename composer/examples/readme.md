@@ -1,1 +1,1 @@
-**Please note:** You may use the software (smart contracts etc) for personal usage or testing only. **You cannot use the software components commercially or otherwise without the written consent of Chainbelow.ORG**. 
+**Please note:** You may use the software (smart contracts etc) for personal usage or testing only. **You cannot use the software components commercially or otherwise without the written consent of Devb.com or Chainbelow.ORG**. 
